@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a{
+  text-decoration: none;
+  color: gold;
+}
+
+.class1{
+  background-color: #14161a;
+  color: white;
+  min-height: 100vh;
+}
