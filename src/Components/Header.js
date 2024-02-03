@@ -6,7 +6,7 @@ import { Crypto } from '../CryptoContext';
 
 const Header = () => {
 
-  const {curreny, setCurreny, symbol, setSymbol} = useContext(Crypto)
+  const {currency, setCurrency, symbol, setSymbol} = useContext(Crypto)
 
   const navigate = useNavigate()
 
@@ -20,7 +20,7 @@ const Header = () => {
     }
   })
 
-  console.log(curreny, symbol)
+  console.log(currency, symbol)
 
   return (
     <ThemeProvider theme={darkTheme}>
@@ -40,8 +40,8 @@ const Header = () => {
                   marginLeft: 15
                 }}
 
-                value={curreny}
-                onChange={(e)=> setCurreny(e.target.value)}
+                value={currency}
+                onChange={(e)=> setCurrency(e.target.value)}
               >
                 <MenuItem value={"USD"} > USD </MenuItem>
                 <MenuItem value={"INR"} > INR </MenuItem>

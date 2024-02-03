@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## API work.
+
+## Carousel Work.
+
+For carousel we used react-alice-carousel => npm package
+
+    1] To install this package run following command :=> npm i react-alice-carousel
+    2] import 'react-alice-carousel/lib/alice-carousel.css';
+        copy paste this line into index.js file.
