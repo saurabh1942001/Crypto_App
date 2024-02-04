@@ -44,9 +44,9 @@ const Carousel = () => {
     console.log("Trending coins data ::: ",data)
   }
 
-  useEffect(()=>{
-    fetchTrendingCoins();
-  },[currency])
+  // useEffect(()=>{
+  //   fetchTrendingCoins();
+  // },[currency])
 
   const items = trending.map((coin)=>{
     let profit = coin.price_change_percentage_24h >= 0;
