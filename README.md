@@ -69,12 +69,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-## API work.
+# API work.
 
-## Carousel Work.
+# Carousel Work.
 
 For carousel we used react-alice-carousel => npm package
 
     1] To install this package run following command :=> npm i react-alice-carousel
     2] import 'react-alice-carousel/lib/alice-carousel.css';
         copy paste this line into index.js file.
+
+# Graph library 
+
+We used "react-chartjs-2" library for this project.
+For more detail visite url => reactchartjs.github.io/react-chartjs-2/#/
